@@ -762,7 +762,7 @@
                         id: "submit",
                         disabled: "Not Applicable" === t.form.monthlyIncome || t.$root.loading
                     }
-                }, [t._v("\n          Kalkulahin\n          "), t.$root.loading ? n("i", {
+                }, [t._v("\n          Kalkulahantutan\n          "), t.$root.loading ? n("i", {
                     staticClass: "fa fa-spinner fa-spin fa-1x fa-fw"
                 }) : t._e()])])])], 1)])
             },
@@ -6943,7 +6943,7 @@
                         id: "submit",
                         disabled: t.isDisabled
                     }
-                }, [t._v("\n        Kalkulahin\n        "), t.$root.loading ? n("i", {
+                }, [t._v("\n        Kalkulahantutan\n        "), t.$root.loading ? n("i", {
                     staticClass: "fa fa-spinner fa-spin fa-1x fa-fw"
                 }) : t._e()])])], 1)])
             },

@@ -196,7 +196,7 @@ td{
 @font-face{
     font-family:Glyphicons Halflings;
     src:url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1);
-    src:url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1) format("embedded-opentype"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2?448c34a56d699c29117adc64c43affeb) format("woff2"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff?fa2772327f55d8198301fdb8bcfc8158) format("woff"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf?e18bbf611f2a2e43afc071aa2f4e1512) format("truetype"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg?89889688147bd7575d6327160d64e760) format("svg")
+    src:url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot?f4769f9bdb7466be65088239c12046d1) format("embedded-opentype"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2?448c34a56d699c29117adc64c43affeb) format("woff2"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff?fa2772327f55d8198301fdb8bcfc8158) format("woff"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf?e18bbf611f2a2e43a84080d71aa2f4e1512) format("truetype"),url(/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg?89889688147bd7575d6327160d64e760) format("svg")
 }
 *,:after,:before{
     -webkit-box-sizing:border-box;
@@ -961,7 +961,7 @@ button.close{
 .simplert__title{
     font:16px Montserrat;
     font-weight:700;
-    color:#471146!important
+    color:#fc0!important
 }
 .simplert__content{
     position:relative;
@@ -983,7 +983,7 @@ button.close{
 }
 .simplert__body{
     font:14px Montserrat;
-    color:#471146!important;
+    color:#fc0!important;
     text-align:left;
     padding-top:.5em;
     line-height:18px!important
@@ -1109,8 +1109,8 @@ button.close{
     width:160px;
     height:40px;
     font:16px Montserrat;
-    color:#471146!important;
-    background-color:#fc0!important
+    color:#fc0!important;
+    background-color:#84080d!important
 }
 .simplert__close--radius,.simplert__confirm--radius{
     border-radius:.3em
@@ -1137,7 +1137,7 @@ button.close{
 }
 .single-or-married{
     padding:10px 15px;
-    background-color:#471146;
+    background-color:#fc0;
     border-radius:5px 5px 0 0
 }
 .single-or-married label{
@@ -1146,30 +1146,30 @@ button.close{
 	font-weight:700;
 }
 .single-or-married.active{
-    border-top:5px solid #471146;
+    border-top:5px solid #fc0;
     background-color:#fff!important;
     border-radius:5px 5px 0 0
 }
 .single-or-married.active label{
-    color:#733672!important
+    color:#fc0!important
 }
 .submitme{
     margin-bottom:15px
 }
 .label{
     font:13px/1.5 Montserrat;
-    color:#a162a3!important
+    color:#fc0!important
 }
 .combine-income{
     padding:5px 0!important;
     text-align:center
 }
 .combine-income h5{
-    color:#471146;
+    color:#fc0;
     font-size:19px
 }
 .combine-income .bs{
-    color:#471146;
+    color:#fc0;
     font-size:13px
 }
 .combine-income table tr td{
@@ -1189,7 +1189,7 @@ button.close{
     margin-bottom:-25px
 }
 .combine-income .separation{
-    border-bottom:1px solid #471146
+    border-bottom:1px solid #fc0
 }
 .combine-income .caption{
     width:90px;
@@ -1214,7 +1214,7 @@ button.close{
 }
 .deduction .col-title{
     margin:0;
-    color:#471146
+    color:#fc0
 }
 .deduction .deduction-sample tr td{
     font-size:13px;
@@ -1233,7 +1233,7 @@ button.close{
 .copyright{
     font-size:9px;
     font-family:Montserrat;
-    color:#a162a3
+    color:#fc0
 }
 @media only screen and (max-width:768px){
     #calculator h3{
@@ -1269,7 +1269,7 @@ button.close{
     margin-bottom:-10px
 }
 .tax-payable h5{
-    color:#471146;
+    color:#fc0;
     text-align:center;
     font-size:19px
 }
@@ -1281,14 +1281,14 @@ button.close{
 }
 .tax-payable .amount{
     font-size:12px;
-    color:#471146
+    color:#fc0
 }
 .tax-payable .total{
     padding:5px
 }
 .tax-payable .annual-total{
     text-align:center;
-    color:#471146;
+    color:#fc0;
     padding-top:6px;
     font:13px Montserrat
 }
@@ -1367,7 +1367,7 @@ input.income{
     border:0
 }
 .combine-income table .vam{
-    border-top:1px solid #471146
+    border-top:1px solid #fc0
 }
 .ls .col-text{
     font:13px Montserrat;
@@ -1394,7 +1394,7 @@ input.income{
 .right-sidebar{
     margin-top:15px;
     background-color:#fff;
-    border-top:5px solid #471146;
+    border-top:5px solid #fc0;
     border-radius:5px 5px 10px 10px;
     padding:1em 50px;
     display:block;
@@ -1431,7 +1431,7 @@ input.income{
     padding:15px
 }
 .overall-text{
-    color:#471146
+    color:#fc0
 }
 .overall-text .currency{
     font:16px Montserrat
@@ -1451,7 +1451,7 @@ input.income{
     font-size:11px;
     text-align:center;
     font:12px Montserrat;
-    color:#471146
+    color:#fc0
 }
 .tax-sample i{
     margin-right:10px
@@ -1515,7 +1515,7 @@ input.income{
     font-size:14px
 }
 .footer-content{
-    background-color:#471146
+    background-color:#fc0
 }
 .footer-content .btn-email{
     width:220px
@@ -1977,8 +1977,8 @@ a .icon{
 .pageone{
     position:relative;
     width:100%;
-    background:-webkit-gradient(linear,left top,left bottom,from(#7f417e),to(#4f194f));
-    background:linear-gradient(#7f417e,#4f194f);
+    background:-webkit-gradient(linear,left top,left bottom,from(#e6df1b),to(#d47500));
+    background:linear-gradient(#e6df1b,#d47500);
     color:#fff;
     height:100%;
     min-height:100%
@@ -2010,7 +2010,7 @@ h3.page-title{
     margin-top:4px
 }
 span.yellow{
-    color:#fc0;
+    color:#84080d;
     display:inline-block
 }
 .pageone-content p{
@@ -2044,7 +2044,7 @@ button.faq-btn:active,button.faq-btn:focus,button.faq-btn:hover{
 }
 .pagetwo-header{
     position:relative;
-    background-color:#471146;
+    background-color:#fc0;
     color:#fff;
     margin-bottom:1.5em;
     padding-bottom:35px
@@ -2054,7 +2054,7 @@ button.faq-btn:active,button.faq-btn:focus,button.faq-btn:hover{
 }
 .job-sector{
     font-family:Montserrat;
-    color:#471146
+    color:#fc0
 }
 .job-sector label{
     font-family:Montserrat
@@ -2071,9 +2071,9 @@ button.faq-btn:active,button.faq-btn:focus,button.faq-btn:hover{
     color:#5a2159
 }
 .income{
-    border:1px solid #471146;
+    border:1px solid #fc0;
     border-radius:5px;
-    color:#471146
+    color:#fc0
 }
 .income{
     height:50px;
@@ -2090,7 +2090,7 @@ button.faq-btn:active,button.faq-btn:focus,button.faq-btn:hover{
 }
 .result{
     font:20px/1.5 Montserrat;
-    color:#471146;
+    color:#fc0;
     padding:0 21px
 }
 .married label,.single label{
@@ -2099,7 +2099,7 @@ button.faq-btn:active,button.faq-btn:focus,button.faq-btn:hover{
 }
 label{
     font:16.5px/1 Montserrat;
-    color:#471146;
+    color:#fc0;
     margin-bottom:0
 }
 input[type=radio].radio-btn{
@@ -2130,41 +2130,41 @@ input[type=radio].radio-btn:checked+label:before{
     content:"\F058 ";
     font-weight:700;
     font-size:16px;
-    color:#471146;
+    color:#fc0;
     background-color:#efefef
 }
 input[type=radio].radio-btn:focus+label,input[type=radio].radio-btn:focus+label:before{
-    color:#915191
+    color:#d08c0b
 }
 span.text{
     padding:10px 0;
     font:italic 13.5px Montserrat;
-    color:#471146
+    color:#fc0
 }
 .btn-yellow{
-    background-color:#fc0;
+    background-color:#84080d;
     font:15px/1.5 Montserrat;
     text-transform:uppercase;
-    color:#471146!important;
+    color:#fc0!important;
     padding:10px;
     height:40px
 }
 .currency{
     font:16px Montserrat;
     float:right;
-    color:#471146
+    color:#fc0
 }
 .annual{
-    color:#471146;
+    color:#fc0;
     text-align:center;
     font-size:10px
 }
 td{
     font:12px Montserrat;
-    color:#a162a3
+    color:#fc0
 }
 .send,.total{
-    background-color:#a162a3;
+    background-color:#fc0;
     color:#fff;
     border-radius:5px;
     text-align:center
@@ -2185,7 +2185,7 @@ td{
 }
 .combine-income,.tax-payable{
     background-color:#fff;
-    border-top:5px solid #471146;
+    border-top:5px solid #fc0;
     border-radius:5px 5px 10px 10px;
     padding:1em;
     display:block;
@@ -2204,21 +2204,21 @@ td{
 }
 .col-title{
     font:15px/1.5 Montserrat;
-    color:#a162a3
+    color:#fc0
 }
 .col-text{
     font:12px Montserrat;
-    color:#733672
+    color:#fc0
 }
 .instruction .col-text{
     font-family:Montserrat;
     font-size:14px;
-    color:#a162a3
+    color:#fc0
 }
 .instruction h5{
     font-family:Montserrat;
     margin-top:25px!important;
-    color:#471146;
+    color:#fc0;
     text-align:center;
     font-size:19px
 }
@@ -2301,14 +2301,14 @@ i.auto,i.inflationImpact,i.oil,i.sin,i.ssb,i.targetedCash,i.vat{
     display:table-cell
 }
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
-    color:#733672;
+    color:#fc0;
     border:1px solid #fff;
-    border-top:5px solid #471146;
+    border-top:5px solid #fc0;
     border-radius:5px 5px 0 0
 }
 .nav-tabs>li>a,.nav-tabs>li>a:focus,.nav-tabs>li>a:hover{
-    border-top:5px solid #471146;
-    background-color:#471146;
+    border-top:5px solid #fc0;
+    background-color:#fc0;
     color:#fff
 }
 .modal{
@@ -2328,12 +2328,12 @@ i.auto,i.inflationImpact,i.oil,i.sin,i.ssb,i.targetedCash,i.vat{
     text-align:left
 }
 .email-container{
-    border-top:5px solid #471146;
+    border-top:5px solid #fc0;
     background-color:#fff;
     padding:10px 15px
 }
 .email-input,.email-message{
-    border:1px solid #733672;
+    border:1px solid #fc0;
     padding:10px;
     margin:10px 0;
     font:16px Montserrat
