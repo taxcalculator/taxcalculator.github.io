@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>DOF Tax Calculator</title>
+      <meta name="description" content="Alamin ang iyong bagong income tax"/>
+      <meta name="author" content="Department of Finance Philippines"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@DOF_PH">
+      <meta name="twitter:title" content="Tax Calculator ">
+      <meta name="twitter:description" content="Alamin ang iyong bagong income tax">
+      <meta name="twitter:creator" content="@DOF_PH">
+      <meta name="twitter:image" content="img/Logo-DOF-225.png">
+      <meta property="og:title" content="Tax Calculator"/>
+      <meta property="og:type" content="article"/>
+      <meta property="og:url" content=""/>
+      <meta property="og:image" content="img/Logo-DOF-225.png"/>
+      <meta property="og:image:height" content="200"/>
+      <meta property="og:image:width" content="200"/>
+      <meta property="og:description" content="Alamin ang iyong bagong income tax"/>
+      <meta property="og:site_name" content="taxcalculator"/>
+      <meta name="token1" content="794efe7839b2fe18971680056885773a2bede60f00b1a562cdebbdad3c08a016">
+      <meta name="token2" content="a929ab17647eba7e5c0e1da7fe07ad0f1a505c44a9eb37d3137392980cfb1e0b">
+      <meta name="token3" content="e7476da0492ba20d3a82ee18d91acd0c5dc06b0bc19d7e4824745964dd095c79">
+      <meta name="token4" content="9adba59478e226ab028561a59feb548b7b438ca3c18ac41b593994018cbf3446">
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="css/app.css">
+   </head>
+   <body>
+      <div id="app">
+         <email-modal></email-modal>
+         <simplert :use-radius="true" :use-icon="false" ref="simplert"></simplert>
+         <nav-bar></nav-bar>
+         <div id="page01" class="page pageone">
+            <div class="logo">
+               <div class="img-logo container"> <img src="img/Logo-DOF-225.png" class="img-responsive center-block logo-img main-logo" alt="DOF"> </div>
+            </div>
+            <div class="row">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12 col-md-6 left-content">
+                        <div class="title">
+                           <h2 class="titleheader">2018 Tax Reform Law</h2>
+                           <h3 class="page-title">Tax <span class="yellow">Calculator</span> </h3>
+                        </div>
+                        <div class="pageone-content">
+                           <p>Ang Tax Reform for Acceleration and Inclusion (TRAIN) ay naghahangad na baguhin ang kasalukuyang sistema ng pagbubuwis upang gawin itong simple, makatarungan, at mas mabisa. Sa pamamagitan ng TRAIN, ang bawat Pilipino ay maga-ambag sa pagpondo ng mas maraming imprastraktura at mga serbisyong panlipunan para mawala ang matinding kahirapan at mabawasan ang hindi pagkakapantay-pantay. Ang TRAIN ay prayoridad na reporma ng administrasyong Duterte.</p>
+                        </div>
+                        <div class="social">
+                           <social-share-buttons></social-share-buttons>
+                        </div>
+                     </div>
+                     <frequently-asked-questions></frequently-asked-questions>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <goto-calculator-button></goto-calculator-button>
+            </div>
+         </div>
+         <div class="page pagetwo">
+            <div class="row pagetwo-header">
+               <div class="container">
+                  <div class="content" id="calculator">
+                     <h3>Alamin ang iyong total gains mula sa tax reform!</h3>
+                     <p class="subtitle">Simula Enero 1, 2018, ipapatupad na ang package 1 ng TRAIN o Tax Reform for Acceleration and Inclusion.</p>
+                     <p>Tinatama ng TRAIN ang masalimuot at hindi makatarungang sistema ng pagbubuwis. Binababaan nito ang personal income tax, ginagawang simple ang estate at donor’s tax, linalawakan ang saklaw ng value-added tax, tinataas ang buwis sa mga produktong petrolyo at sa mga sasakyan, at bibigyan ng buwis ang mga sugar-sweetened beverage.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <computation></computation>
+            </div>
+            <div class="instruction">
+               <div class="row footer">
+                  <div class="container">
+                     <h5>Paano ba gamitin ang tax calculator?</h5>
+                     <p class="col-text sl"><i>Simple lang!</i></p>
+                     <div class="col-md-12 col-sm-12">
+                        <div class="how-to-use">
+                           <div class="row">
+                              <ol>
+                                 <li class="step">
+                                    <p class="step-instruc"> Kung ikaw ay biyudo o biyuda, gamitin ang <b>single</b> option sa calculator.</p>
+                                 </li>
+                                 <li class="step">
+                                    <p class="step-instruc"> Hindi kasama sa kalkulasyon ang mga overtime, absences, leaves, diminimis benefits, at iba pa.</p>
+                                 </li>
+                                 <li class="step">
+                                    <p class="step-instruc" style="margin-top: -3px;"> Kung ikaw o ang asawa mo ay walang trabaho, itype ang 0 (zero). </p>
+                                 </li>
+                                 <li class="step">
+                                    <p class="step-instruc"> Kasama sa total contributions ang mandatory contributions para sa SSS/GSIS, PhilHealth, at PAG-IBIG. </p>
+                                 </li>
+                                 <li class="step">
+                                    <p class="step-instruc"> Kasama sa kalkulasyon para sa lumang sistema ang exemption para sa mga dependents. </p>
+                                 </li>
+                                 <li class="step">
+                                    <p class="step-instruc"> Tuloy pa rin ang exemption ng mga minimum wage earner at OFW sa Personal Income Tax. </p>
+                                 </li>
+                                 <li class="step">
+                                    <p class="step-instruc"> Walang impormasyon na kinukuha ang DOF mula sa mga datos na ipinabahagi sa tax calculator na ito para maprotektahan ang privacy ng lahat. </p>
+                                 </li>
+                              </ol>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-12 footer-content">
+                        <div class="col-xs-12 email-form">
+                           <div class="feedback">
+                              <div class="col-sm-12 col-md-4">
+                                 <div class="email-desc">
+                                    <p class="text-center">Para sa mga komento at suhestiyon, maaring mag-email sa tax reform team!</p>
+                                    <div class="col-sm-12 col-md-5 email-contain"> <a type="button" id="submit" class="btn center-block btn-yellow btn-email" href='' @click.prevent="showEmailModal=true"> Mag-email </a> </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-12 col-md-8 footer-social">
+                                 <p class="">
+                                    Share on 
+                                    <social-share-buttons></social-share-buttons>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <br/> 
+                        <p class="center-block copyright">Copyright 2018. Department of Finance Philippines.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/app.js?id=e87bece47972fdbeec8a"></script>
+   </body>
+</html>
