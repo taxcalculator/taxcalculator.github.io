@@ -6766,7 +6766,7 @@
 						message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), this.$nextTick(function() {
                         return t.$root.$refs.simplert.$el.getElementsByTagName("button")[0].focus()
-                    }), !1) : !(parseInt(this.form.monthlyIncome) < 300) || (this.$root.$refs.simplert.openSimplert({
+                    }), !1) : !(parseInt(this.form.monthlyIncome) < 845646546545646) || (this.$root.$refs.simplert.openSimplert({
                         title: "Mga Resulta",
 						message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), this.$nextTick(function() {
