@@ -641,17 +641,21 @@
                 validate: function() {
                     var t = this;
                     return parseFloat(this.form.monthlyIncome) < 31212121444400 && 0 != parseFloat(this.form.monthlyIncome) ? (this.$root.$refs.simplert.openSimplert({
-                        title: "Gagi kahit anong gawin nyo rape parin abot nyo sa gobyerno."
+                        title: "Mga Resulta",
+					message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), this.$nextTick(function() {
                         return t.$root.$refs.simplert.$el.getElementsByTagName("button")[0].focus()
                     }), !1) : parseFloat(this.form.monthlyIncome2) < 300 && 0 != parseFloat(this.form.monthlyIncome2) ? (this.$root.$refs.simplert.openSimplert({
-                        title: "Gagi kahit anong gawin nyo rape parin abot nyo sa gobyerno."
+                        title: "Mga Resulta",
+					message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), this.$nextTick(function() {
                         return t.$root.$refs.simplert.$el.getElementsByTagName("button")[0].focus()
                     }), !1) : 0 === parseFloat(this.form.monthlyIncome) && 0 === parseFloat(this.form.monthlyIncome2) ? (this.$root.$refs.simplert.openSimplert({
-                        title: "Gagi kahit anong gawin nyo rape parin abot nyo sa gobyerno."
+                        title: "Mga Resulta",
+					message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), !1) : "" !== this.form.monthlyIncome && "" !== this.form.monthlyIncome2 || (this.$root.$refs.simplert.openSimplert({
-                        title: "Gagi kahit anong gawin nyo rape parin abot nyo sa gobyerno."
+                        title: "Mga Resulta",
+					message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), !1)
                 },
                 submit: function() {
@@ -778,7 +782,7 @@
         t.exports = n
     },
     ET9U: function(t, e, n) {
-        (t.exports = n("FZ+f")(!1)).push([t.i, ".modal[data-v-73cf0bf6]{display:block;background:rgba(0,0,0,.5)}.modal-content[data-v-73cf0bf6],.modal-dialog[data-v-73cf0bf6]{width:380px}.modal-header[data-v-73cf0bf6]{background-color:#471145;border-bottom:0}.modal-title[data-v-73cf0bf6]{font:15px/1.5 MetropolisBold;color:#fff}.form-control[data-v-73cf0bf6]{background-color:#f4f4f4;border-color:#c9c9c9}.close[data-v-73cf0bf6]{color:#e3dae3!important;opacity:1}.send[data-v-73cf0bf6]{width:50%;background-color:#fc0;color:#471248;display:inline-block;margin-top:5px;margin-bottom:8px}[data-v-73cf0bf6]::-webkit-input-placeholder{color:#582256}[data-v-73cf0bf6]::-moz-placeholder{color:#582256}[data-v-73cf0bf6]:-ms-input-placeholder{color:#582256}[data-v-73cf0bf6]:-moz-placeholder{color:#582256}button[data-v-73cf0bf6]:focus{outline:0}.help-block[data-v-73cf0bf6]{float:left;margin-top:0;margin-bottom:10px;color:red}", ""])
+        (t.exports = n("FZ+f")(!1)).push([t.i, ".modal[data-v-73cf0bf6]{display:block;background:rgba(0,0,0,.5)}.modal-content[data-v-73cf0bf6],.modal-dialog[data-v-73cf0bf6]{width:380px}.modal-header[data-v-73cf0bf6]{background-color:#471145;border-bottom:0}.modal-title[data-v-73cf0bf6]{font:15px/1.5 Montserrat;font-weight:bold;color:#fff}.form-control[data-v-73cf0bf6]{background-color:#f4f4f4;border-color:#c9c9c9}.close[data-v-73cf0bf6]{color:#e3dae3!important;opacity:1}.send[data-v-73cf0bf6]{width:50%;background-color:#fc0;color:#471248;display:inline-block;margin-top:5px;margin-bottom:8px}[data-v-73cf0bf6]::-webkit-input-placeholder{color:#582256}[data-v-73cf0bf6]::-moz-placeholder{color:#582256}[data-v-73cf0bf6]:-ms-input-placeholder{color:#582256}[data-v-73cf0bf6]:-moz-placeholder{color:#582256}button[data-v-73cf0bf6]:focus{outline:0}.help-block[data-v-73cf0bf6]{float:left;margin-top:0;margin-bottom:10px;color:red}", ""])
     },
     F1kH: function(t, e, n) {
         "use strict";
@@ -4888,8 +4892,8 @@
                     attrs: {
                         title: "Tax Calculator",
                         description: "Alamin ang iyong bagong income tax",
-                        hashtags: "DOF Taxcalculator, TRAIN",
-                        "twitter-user": "DOF_PH"
+                        hashtags: "Taxcalculator, TRAIN",
+                        "twitter-user": "try2jakol"
                     },
                     inlineTemplate: {
                         render: function() {
@@ -6758,11 +6762,13 @@
                 validate: function() {
                     var t = this;
                     return "" === this.form.monthlyIncome ? (this.$root.$refs.simplert.openSimplert({
-                        title: "Gagi kahit anong gawin nyo rape parin abot nyo sa gobyerno."
+                        title: "Mga Resulta",
+						message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), this.$nextTick(function() {
                         return t.$root.$refs.simplert.$el.getElementsByTagName("button")[0].focus()
                     }), !1) : !(parseInt(this.form.monthlyIncome) < 300) || (this.$root.$refs.simplert.openSimplert({
-                        title: "Gagi kahit anong gawin nyo rape parin abot nyo sa gobyerno."
+                        title: "Mga Resulta",
+						message: '<img style="max-width:100%" src="img/result.jpg" alt="Resulta" /><br />"anong chord ito mga ka-dds? diba G for gahasa?"',
                     }), this.$nextTick(function() {
                         return t.$root.$refs.simplert.$el.getElementsByTagName("button")[0].focus()
                     }), !1)
